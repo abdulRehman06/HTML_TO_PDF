@@ -1,9 +1,6 @@
-## Tutorial 
+## Generating Custom HTML Invoices which also include Images and convert them to PDF
 
-Link: _To be added_
+Link:https://medium.com/p/19754e79b89f/edit
 
-Topics Covered: 
+Topics Covered:  node createPDF-html-pdf
 
-- To be added
-- To be added
-- To be added
