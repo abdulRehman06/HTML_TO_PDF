@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src=<%= dbObject.headerImg %> alt="Creating Email Magic" width="800"  height="200" style="display: block;" />
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td
+                style="border-top: 2px solid #898989; width: 33%;  padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+                House No: <%= dbObject.houseNumber %>
+            </td>
+            <td
+                style="border-top: 2px solid #898989; width: 33%; padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+                Billing Month: <%= dbObject.billingMonth %>
+            </td>
+            <td
+                style="border-top: 2px solid #898989; width: 33%; padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+                Due Date: <%= dbObject.dueDate %>
+            </td>
+            <td
+                style="border-top: 2px solid #898989; width: 3%; padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="border-top: 2px solid #898989; width: 33%;  padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+                Utility Bill: <%= dbObject.utilityBill %>
+            </td>
+            <td
+                style=" border-top: 2px solid #898989; width: 33%;  padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+                Mosque: <%= dbObject.mosque %>
+            </td>
+            <td
+                style=" border-top: 2px solid #898989; width: 33%;  padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+                Miscellaneous: <%= dbObject.miscellaneous %>
+            </td>
+            <td
+                style=" border-top: 2px solid #898989; width: 33%;  padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+
+            </td>
+        </tr>
+        <tr>
+            <td
+                style=" border-top: 2px solid #898989; width: 33%;  padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+                Arrears: <%= dbObject.arrears %>
+            </td>
+            <td
+                style="border-top: 2px solid #898989; width: 33%;  padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+                Total Payable: <%= dbObject.totalPayable %>
+            </td>
+            <td
+                style=" border-top: 2px solid #898989; width: 33%;  padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+
+            </td>
+            <td
+                style=" border-top: 2px solid #898989; width: 33%;  padding: 6px 0 6px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 16px;">
+
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

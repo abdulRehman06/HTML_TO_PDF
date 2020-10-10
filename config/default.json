@@ -1,0 +1,24 @@
+﻿{
+	"secretKey": "12345-67890-09876-54321",
+	"expiresIn": "1 day",
+	"MySQL": {
+		"host": "localhost",
+		"port": "",
+		"user": "root",
+		"password": "root",
+		"database": "schemaname"
+	},
+
+	"EmailSettings": {
+		"SMTP": "mail.pk",
+		"Port": 587,
+		"FromEmail": "ctedev@gmail.com",
+		"FromEmailPassword": "abcd"
+	},
+	"CRON": {
+		"DayRang": [0,1,2,3,4,5,6],
+		"HourRang": [0 ,  23],
+		"MinutesRang": [0 , 15  , 30 ,  45 ]
+	}
+	
+}

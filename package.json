@@ -1,0 +1,21 @@
+{
+	"name": "tutorial",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build:table": "node ./createTable.js",
+		"prebuild:pdf": "npm run build:table",
+		"build:pdf": "node ./createPdf.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"config": "^3.3.2",
+		"ejs": "^3.1.5",
+		"html-pdf": "^2.2.0",
+		"nodemailer": "^6.4.13",
+		"puppeteer": "^1.15.0"
+	}
+}
