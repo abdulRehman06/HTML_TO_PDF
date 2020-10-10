@@ -2,5 +2,5 @@
 
 Link:https://medium.com/p/19754e79b89f/edit
 
-Topics Covered:  node createPDF-html-pdf
+node createPDF-html-pdf
 
