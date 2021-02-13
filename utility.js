@@ -28,6 +28,7 @@ function SendEmailNotification(toemail, subject, message, attachmentData, attach
         smtpTransport.sendMail(mailOptions, function (error) {
             if (error) {
                 reject(error)
+                console.log('testing')
             }
             else {
                 resolve('success')
